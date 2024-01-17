@@ -1,0 +1,35 @@
+* { 
+	margin:0;
+	padding:0;
+}
+
+.clear {
+	clear:both;
+}
+
+html, body, #wrap {
+	height: 100%;
+}
+
+body > #wrap {
+	height: auto; 
+	min-height: 100%;
+}
+
+#main {
+	padding-bottom: 113px;
+}  /* deve ser a mesma altura do rodapé */
+
+#footer {
+position: relative;
+margin-top: -113px; /* A mesma altura do rodapé, o valor deve ser negativo */
+height: 40px;
+clear:both
+}
+
+#logo{
+	float:right;
+	margin-right:80px;
+	margin-top:50px;
+}
+

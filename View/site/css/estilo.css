@@ -1,0 +1,231 @@
+/* CSS Document */
+* { 
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	outline:none;
+	color: #FFFFFF;
+	font-family:Tahoma, Trebuchet MS, Verdana, Arial;
+}
+
+fieldset {
+	border:none;
+}
+
+body {
+	background:url(../arquivos/planos_fundo/plano_fundo_1.jpg) no-repeat center top;
+	background-color:#465359;
+}
+
+.clear {
+	clear:both;	
+}
+
+/* Definição de estilos do cabeçalho */
+#header {
+	height:170px;	
+	background:url(../imagens/header_background.png) repeat-x top;
+}
+
+#box_header {
+	width:1003px;
+	height:100%;
+	margin:0 auto;
+}
+
+#box_header .logotipo {
+	padding-top:10px;
+	padding-left:10px;	
+	float:left;
+}
+
+#box_header .slogan {
+	font-family:Arial;
+	font-size:22px;
+	color:#FFF;
+	float:left;
+	padding-left:10px;
+	padding-top:25px;
+	text-align:center;
+}
+
+#box_header .buscar {
+	float:left;
+	padding-left:20px;
+	padding-top:15px;
+	width:285px;
+}
+
+
+
+#box_header .buscar .frase_1 {
+	font-family:Arial;
+	font-size:16px;
+	color:#FFF;
+}
+
+#box_header .buscar .frase_2 {
+	font-family:Arial;
+	font-size:14px;
+	color:#FBF23D;
+	padding-top:5px;
+	padding-bottom:20px;
+}
+
+#box_header .buscar ul.selecionar_tipo_animal {
+	list-style:none;
+}
+
+#box_header .buscar ul.selecionar_tipo_animal li {
+	float:left;
+	padding-right:40px;
+}
+
+
+ul.selecionar_tipo_animal li a.cachorro_inativo {
+	width:35px;
+	height:38px;	
+	background:url(../imagens/cachorro_inativo.png) no-repeat center;
+	display:block;
+}
+ul.selecionar_tipo_animal li a.cachorro_ativo, ul.selecionar_tipo_animal li a.cachorro_inativo:hover {
+	width:35px;
+	height:38px;	
+	background:url(../imagens/cachorro_ativo.png) no-repeat center;
+	display:block;
+}
+
+ul.selecionar_tipo_animal li a.gato_inativo {
+	width:31px;
+	height:38px;	
+	background:url(../imagens/gato_inativo.png) no-repeat center;
+	display:block;
+}
+ul.selecionar_tipo_animal li a.gato_ativo, ul.selecionar_tipo_animal li a.gato_inativo:hover {
+	width:31px;
+	height:38px;	
+	background:url(../imagens/gato_ativo.png) no-repeat center;
+	display:block;
+}
+
+ul.selecionar_tipo_animal li a.outros_inativo {
+	width:48px;
+	height:38px;	
+	background:url(../imagens/outros_inativo.png) no-repeat center;
+	display:block;
+}
+ul.selecionar_tipo_animal li a.outros_ativo, ul.selecionar_tipo_animal li a.outros_inativo:hover {
+	width:48px;
+	height:38px;	
+	background:url(../imagens/outros_ativo.png) no-repeat center;
+	display:block;
+}
+
+#header .buscar .formulario_busca {
+	padding-top:15px;
+}
+
+#header .buscar .formulario_busca .select_busca {
+	font-family:Arial;
+	font-size:18px;
+	font-style:italic;
+	color:#656565;
+	width:200px;
+	height:30px;
+	padding-top:3px;
+	padding-bottom:3px;
+	margin-right:20px;
+}
+
+#btn_buscar{
+	float:right;
+	margin-right:85px;
+	margin-top:10px;
+}
+
+#menu_esquerdo{
+	text-transform: uppercase;
+}
+
+#menu_esquerdo ul{
+	padding-top: 20px;
+	float: left;
+	padding-bottom: 62px;
+	width: 100%;
+}
+
+#menu_esquerdo ul li{
+	list-style: none;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left: 55px;
+}
+
+#menu_esquerdo ul li:hover{
+	background:url(../imagens/osso.png) no-repeat center left #2A494D;
+	background-position: 10px center;
+}
+
+footer{
+	height:225px;
+	width: 100%;
+	background:url(../imagens/header_background.png) repeat top;
+	float: left;
+}
+
+#footer{
+	/* width: 1003px; */
+	margin: 0 auto;
+	display: inline;
+}
+
+#footer_right{
+  border:1px solid blue
+}
+
+#footer_left{
+  border:1px solid red
+}
+
+.menu_rodape{
+	height:50px;
+	margin:130px 0 0 0;
+	background:#F3EFDD;
+	font-size:22px;
+}
+
+.menu_rodape a{
+	color:#001D27;
+	text-decoration:none;
+}
+
+.menu_rodape ul{
+  	list-style:none;
+}
+  
+.menu_rodape ul li {
+  	float:left;
+	border-top:solid 3px #FFF;	
+	border-bottom:solid 3px #FFF;	
+	border-left:solid 3px #FFF;	
+}
+
+.imagem {
+	float:left;	
+	margin:-40px 0 0 180px;
+}
+
+.secundaria{
+ 	float:left;
+ 	border:0px solid red;
+ 	width:230px;
+ 	margin:-10px 0 0 130px; 
+}
+
+
+
+
+
+
+
+	

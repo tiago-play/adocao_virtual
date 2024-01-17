@@ -1,0 +1,111 @@
+*{ 
+	margin:0;
+	padding:0;
+	outline:none;//retira as bodas dos campos de texto
+}
+
+input[type=text]{
+	margin-bottom:10px;
+}
+
+input:focus{
+	background: #AAA;
+}
+
+input{
+	border-radius: 20px;	
+}
+
+.box{
+	display:table; 
+    border-radius:0px 20px 0px 20px;
+	background: #CCDBFF;
+	height:200px;
+	left:50%;
+	margin:-95px -145px;	
+ 	position:absolute;
+	top:50%;
+	width:255px;
+	padding-right:50px;
+	
+}
+
+.box #frase{
+	font-family:Arial;
+	font-size:14px;
+	padding-top:25px;
+	text-align:center;
+}
+
+.box .formulario_login{
+	float:left;		
+	padding-top:15px;
+	padding-left:15px;
+	width:170px;
+	height:120px;
+}
+
+.box .formulario_login #acessar, #limpar{
+	margin-top:10px;
+	margin-left:10px;
+	font-size: 15px;
+	line-height:1;
+	color:#555554;
+	text-decoration: none;
+ 	display: inline-block;
+	height:auto;
+	padding-top:5px;
+	padding-right:10px;
+	border:1px solid #bfbfbf;
+	border-top-color:#cecece;
+	border-bottom-color:#747474;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px;border-radius: 5px;
+}
+
+.box .formulario_login #acessar:hover, #limpar:hover, #acessar:focus, #limpar:focus{
+  opacity: 1;
+  z-index:2;
+  -moz-transition: all .6s ease-in-out;
+  -moz-transform: rotate(0deg) scale(1.10);
+  -webkit-transition: all .6s ease-in-out;
+  -webkit-transform: rotate(0deg) scale(1.10);
+  -o-transition-duration: all .6s ease-in-out;
+  -o-transform: rotate(0deg) scale(1.10);
+}
+
+.box #cadeado{
+	padding-left:50px;
+	padding-top:95px;
+}
+
+
+#fraseerro{
+	border-color:#f00;
+	font-family:Arial;
+	font-size:10px;
+	color:#F00;
+	float:right;
+}
+
+#fraseerro .emailfrase, .senhafrase{
+ 	font-family:Arial;
+	font-size:14px;
+	color:#000;
+}
+
+/*
+Para a margin-top você deve pegar a altura total do elemento e dividir por 2, 
+como temos alí uma div com um height de 480px, o valor final é de 240px, e 
+para margin-left pegamos a largura total do elemento, que alí é de 640px, 
+dividimos por 2, e chegamos ao valor de 320px.
+*/
+
+/*
+display: table; fazer com que o elemento pai (.box)
+englobe outros elementos float (#cadeado)
+Após usar o float, convém usar o clear:both. 
+
+*/
+
+
+

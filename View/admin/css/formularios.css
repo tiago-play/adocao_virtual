@@ -1,0 +1,390 @@
+/* Regras gerais */
+
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+}
+
+/*limpa o float e funciona como um br */
+.reset{
+	clear:both;
+}
+
+/* propriedades que centralizam horizontalemente
+display:table e margin:0 auto */
+.titulo{
+	text-align:center;
+	font-family:arial black;
+	font-size:20px;
+	color:#4D4D4D;
+	margin:10px 0px;;
+}
+
+.formulario{
+	font-family:arial;
+	color:#4D4D4D;
+}
+ 
+ /*faz o titulo ficar em cima do campo */
+label{
+	display:block; 
+}
+
+input:focus{
+	background:#BFBFBF;
+}
+ 
+input[type=text], input[type=password]{
+	border-radius:15px;
+}
+
+fieldset{
+	border-radius:15px;
+	margin:15px 15px 0px 15px;	
+}			
+ 
+.campo{
+	float:left;	
+	margin:10px;
+}
+
+/*REGRAS PARA O FUNDO E POSICIONAMENTO DE TODOS FORMULARIOS*/
+#form_funcionario, #form_animal, #form_evento, #form_eventoCategoria, #form_vacina, #form_vacinacao, #form_cliente{
+	border-radius:15px;
+	display:table;	
+	background:#DEDEDE;
+	margin:0 auto;
+}
+
+/*REGRAS PARA TODOS campos de código */
+#id_funcionario, #id_animal, #id_evento, #id_categoria, #id_vacina, #id_vacinacao, #id_vacina_animal, #id_cliente{
+	background:#DEDEDE;
+	width:50px;
+}
+
+
+
+/*REGRAS PARA TODOS BOTÕES */
+#novo, #gravar, #deletar, #listar{
+	float:right;
+	margin:10px 10px 10px 10px;
+}
+
+/*regras das mensagens de erro do validate */
+label.error { 
+	float: none; 
+	color: red; 
+	vertical-align: bottom; 
+	font-size: 15px;
+}  
+
+/*Regras dos campos do formulario funcionario */
+
+.radio{
+	display:table;
+	float:left;	
+	margin:10px 50px 10px 10px;
+}
+
+#nome, #email, #endereco{
+	width:300px;
+}
+
+#dt_nascimento, #telefone, #cep{
+	width:140px;
+}
+
+#rg, #cpf, #numero, #complemento, #celular{
+	width:135px;
+}
+ #senha, #bairro{
+ 	width:140px;
+ }	
+ 
+
+/*Regras dos campos do formulario animais */
+
+
+#raca{
+	width:140px;	
+}
+
+#cor{
+	width:133px;	
+}
+
+#procedencia{
+	width:133px;	
+}
+
+#tipo{
+	width:300px;	
+}
+
+#nome_imagem{
+	background:#DEDEDE;
+	width:300px;
+}
+
+#busca_animal{
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+
+/*Cadastro de categoria de eventos*/
+#descricaoevento{
+	width:150px;	
+}
+
+/*Cadastro de eventos*/
+#descricaocategoria{
+	width:200px;	
+}
+
+/*Cadastro de vacinacao*/
+#dt_vacinacao{
+	width:135px;
+}
+
+
+
+
+/***********************
+*ESTILIZAÇÃO DAS LISTAS *
+************************/
+
+
+/********************************
+*TITULO E BOTÃO NOVO  DAS LISTAS*
+*********************************/
+
+/*animalLista */
+.titulolistaa{
+	font-family:arial black;
+	font-size:20px;
+	color:#4D4D4D;
+	float:left;
+	margin-left:265px;
+	margin-top:15px;
+}
+	
+.botaonovoa{
+	float:right;
+	margin:10px 265px 10px 0px;
+}
+
+/*clienteLista */
+.titulolistac{
+	font-family:arial black;
+	font-size:20px;
+	color:#4D4D4D;
+	margin: 10px 10px; 
+	text-align:center;
+	}
+
+/*eventoCategoriaLista */
+.titulolistace{
+	font-family:arial black;
+	font-size:20px;
+	color:#4D4D4D;
+	float:left;
+	margin-left:465px;
+	margin-top:15px;
+	}
+
+.botaonovoce{
+	float:right;
+	margin:10px 465px 10px 0px;
+}
+
+/*eventoLista */
+.titulolistae{
+	font-family:arial black;
+	font-size:20px;
+	color:#4D4D4D;
+	float:left;
+	margin-left:20px;
+	margin-top:15px;
+	}
+
+.botaonovoe{
+	float:right;
+	margin:10px 20px 10px 0px;
+}
+
+/*funcionarioLista */
+.titulolistaf{
+	font-family:arial black;
+	font-size:20px;
+	color:#4D4D4D;
+	float:left;
+	margin-left:380px;
+	margin-top:15px;
+	}
+
+.botaonovof{
+	float:right;
+	margin:10px 380px 10px 0px;
+}	
+
+/*vacinacaoLista */
+.titulolistavc{
+	font-family:arial black;
+	font-size:20px;
+	color:#4D4D4D;
+	float:left;
+	margin-left:280px;
+	margin-top:15px;
+	}
+
+.botaonovovc{
+	float:right;
+	margin:10px 280px 10px 0px;
+}
+
+/*vacinaLista */
+.titulolistav{
+	font-family:arial black;
+	font-size:20px;
+	color:#4D4D4D;
+	float:left;
+	margin-left:465px;
+	margin-top:15px;
+	}
+
+.botaonovov{
+	float:right;
+	margin:10px 465px 10px 0px;
+}
+
+
+.titulolistap{
+	font-family:arial black;
+	font-size:20px;
+	color:#4D4D4D;
+	float:left;
+	margin-left:335px;
+	margin-top:15px;
+}
+
+/*******************************
+*FORMATAÇÃO DO CORPO DAS LISTAS*
+********************************/
+
+.boxlista {
+	
+	margin-bottom:15px;
+}
+
+.claro { 
+	background:#FFFFFF;
+}
+
+.escuro { 
+	background:#E6E6E6;
+}
+
+tr:hover{
+	background:#D1FFD1;
+}
+
+.tabela{
+	border:solid 1px #CCC;
+	margin:0 auto;	
+	font-family:arial;
+	color:#454545;
+}
+
+.barratitulo{
+	padding:5px 0;
+	font-weight:bold;
+	border-bottom:solid 2px #CCC;
+	background:#FFF;
+}
+
+.barraconteudo{
+	padding:15px;	
+}
+
+
+/***********************
+*ESTILOS PARA PAGINAÇÃO*
+************************/
+
+.boxpg{
+	display:table;
+	margin:0 auto;
+	margin-up:10px;
+}
+
+.pgoff {
+	font-family: Arial;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+a.pg {
+	font-family: Arial; 
+	color: #003366; 
+	text-decoration: none;
+}
+
+a:hover.pg {
+	font-family: Arial; 
+	color: #0066cc; 
+	text-decoration:underline;
+}
+
+
+/*
+
+********************
+*Comentarios Gerais*
+********************
+
+Abreviaturas para posicionamentos
+
+1) Neste caso, os valores são aplicados para todos os lados do elemento:
+seletor{ 
+	margin: 1px; 
+	padding: 1px; 
+}
+
+2)Se as unidades do topo e rodapé forem as mesmas (1px), 
+esquerda e direita forem iguais entre si (5px), podemos escrever de outra forma:
+seletor{
+	margin: 1px 5px; 
+	padding: 1px 5px; 
+}
+
+3)Mas há situações nas quais precisa-se utilizar uma unidade para o topo (1px),
+outra (igual) para os lados (5px) e mais uma para o rodapé (6px):
+seletor{
+	margin: 1px 5px 6px; 
+	padding: 1px 5px 6px; 
+}
+
+4) Maneira simplificada de escrever as dimensões para todos os lados, mas deve-se seguir o sentido horário, 
+ou seja: top (1px), right (2px), bottom (3px) e left (4px):
+seletor{ 
+	margin:  1px 2px 3px 4px;
+    padding: 1px 2px 3px 4px;
+}
+
+Forma sem abreviação
+
+seletor {
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+}
+
+*/

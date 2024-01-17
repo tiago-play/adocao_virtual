@@ -1,0 +1,81 @@
+* { 
+	margin:0;
+	padding:0;
+}
+
+.clear {
+	clear:both;
+}
+
+body {
+	min-width:1003px;	
+}
+
+.box{
+	background:url(../imagens/header_back.jpg) repeat-x;
+	height:113px;
+}
+
+.box .logo{
+	float:left;
+	padding:10px 0 0 10px;	
+}
+
+.box .saudacao {
+	float:right;
+	min-width:80%;
+	text-align:center;
+	margin-top:40px;
+	font-family:Arial;
+	font-size:16px;
+	color:#FFF;
+}
+
+#botao_sair, #data_extenso {
+	float:right;
+	margin-top:10px;
+}
+
+#data_extenso {
+	font-family:Arial;
+	font-size:14px;
+	color:#FFF;
+	padding:10px 20px 10px 0;
+}
+
+.menu_principal {
+	border-bottom:solid 3px #646464;
+	background:url(../imagens/menu_back.jpg) repeat-x 0 3px;
+}
+
+.menu_principal ul {
+	list-style:none;
+}
+
+.menu_principal ul li {
+	float:left;
+	border-top:solid 3px #FFF;	
+	border-bottom:solid 3px #FFF;	
+	border-left:solid 3px #FFF;	
+}
+
+.menu_principal ul li:first-child {
+	border-left:none;
+}
+
+.menu_principal ul li:last-child {
+	border-right:solid 3px #FFF;
+}
+
+.menu_principal ul li a {
+	display:block;
+	height:31px;
+	line-height:31px;
+	background:url(../imagens/menu_back.jpg) repeat-x;
+	padding:0 20px;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+}

@@ -1,0 +1,46 @@
+.boxLogin {
+ 	border:0px solid red;
+ 	margin:10px;
+}
+	
+#btn{
+    background:#37A312;
+}
+
+#cliqueaqui{
+	font-size:15px;
+	text-align:center;
+}
+
+#login{
+	float:right;
+    width:305px;
+	text-align:right;
+	margin:-170px 200px 0 820px;
+}
+
+#login input[type="text"]{
+	width:170px;
+}
+
+#login input[type="password"] {
+	width:170px;
+}
+
+input:focus{
+    background: #999999;
+}
+
+input{
+    border-radius:20px;
+    display:marker;
+    width:100px;
+    background: #CCCCCC;
+}
+
+div#login label{
+  	display:block;
+  	width:100px;
+  	float:left;	
+  	color:#FFF;
+}
